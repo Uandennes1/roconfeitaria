@@ -44,8 +44,8 @@ section {
   height: auto;
   background-color: #ffdfe5;
 }
-h3 {
-  padding: 10px 50px;
+h2 {
+  padding: 10px 150px;
 }
 
 .logo {
@@ -63,13 +63,66 @@ h3 {
   text-align: center;
 }
 
+.container1 {
+  margin: 0px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(15, 10vh);
+  grid-template-rows: repeat(5, 7vh);
+  text-align: center;
+  justify-content: center;
+}
+
 .container img {
   display: block;
   margin: 10px auto;
   max-width: 90%;
   max-height: 70%;
+  border-radius: 20px;
 }
 
 .box {
   background-color: azure;
+}
+
+.box-image-e {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.box-label-e {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: aqua;
+  border-radius: 35px;
+  border-style: groove;
+}
+
+.box-image-d {
+  grid-column-start: 12;
+  grid-column-end: 16;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.box-label-d {
+  grid-column-start: 5;
+  grid-column-end: 15;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: aqua;
+  border-radius: 35px;
+  border-style: groove;
+}
+.container1 img {
+  display: block;
+  margin: 10px auto;
+  max-width: 99%;
+  max-height: 99%;
+  border-radius: 50%;
+  border-style: groove;
 }
