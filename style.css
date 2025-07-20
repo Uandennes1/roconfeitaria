@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -32,7 +33,6 @@ li a {
   padding: 15px 16px;
   text-decoration: none;
   font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 li a:hover {
@@ -41,7 +41,7 @@ li a:hover {
 }
 
 section {
-  height: auto;
+  height: 1000px;
   background-color: #ffdfe5;
 }
 h2 {
@@ -93,13 +93,14 @@ h2 {
 }
 
 .box-label-e {
-  grid-column-start: 2;
+  grid-column-start: 4;
   grid-column-end: 12;
   grid-row-start: 3;
   grid-row-end: 5;
-  background-color: aqua;
+  background-color: #77545967;
   border-radius: 35px;
   border-style: groove;
+  padding: 13px;
 }
 
 .box-image-d {
@@ -111,12 +112,13 @@ h2 {
 
 .box-label-d {
   grid-column-start: 5;
-  grid-column-end: 15;
+  grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 5;
   background-color: aqua;
   border-radius: 35px;
   border-style: groove;
+  padding: 13px;
 }
 .container1 img {
   display: block;
