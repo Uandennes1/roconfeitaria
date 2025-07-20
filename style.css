@@ -101,6 +101,7 @@ h2 {
   border-radius: 35px;
   border-style: groove;
   padding: 10px;
+  font-size: large;
 }
 
 .box-image-d {
@@ -119,6 +120,7 @@ h2 {
   border-radius: 35px;
   border-style: groove;
   padding: 10px;
+  font-size: large;
 }
 .container1 img {
   display: block;
