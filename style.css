@@ -102,7 +102,7 @@ h2 {
   border-style: groove;
   padding: 10px;
   font-size: large;
-  padding: 5px 0px 0px 20px;
+  padding: 5px 0px 0px 30px;
 }
 
 .box-image-d {
@@ -117,10 +117,10 @@ h2 {
   grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 5;
-  background-color: aqua;
+  background-color: #77545967;
   border-radius: 35px;
   border-style: groove;
-  padding: 5px 20px 0px 0px;
+  padding: 5px 30px 0px 0px;
   font-size: large;
 }
 .container1 img {
