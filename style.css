@@ -94,13 +94,12 @@ h2 {
 
 .box-label-e {
   grid-column-start: 4;
-  grid-column-end: 12;
+  grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 5;
   background-color: #77545967;
   border-radius: 35px;
   border-style: groove;
-  padding: 10px;
   font-size: large;
   padding: 5px 0px 0px 40px;
 }
@@ -113,7 +112,7 @@ h2 {
 }
 
 .box-label-d {
-  grid-column-start: 5;
+  grid-column-start: 4;
   grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 5;
